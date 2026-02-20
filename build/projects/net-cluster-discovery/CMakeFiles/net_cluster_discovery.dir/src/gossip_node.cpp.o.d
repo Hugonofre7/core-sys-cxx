@@ -1,0 +1,2 @@
+projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/src/gossip_node.cpp.o: \
+  /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/net-cluster-discovery/src/gossip_node.cpp

@@ -1,0 +1,14 @@
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles/edit_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles/rebuild_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/edit_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/rebuild_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery/CMakeFiles/edit_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery/CMakeFiles/rebuild_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/core-task-scheduler/CMakeFiles/edit_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/core-task-scheduler/CMakeFiles/rebuild_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/data-stream-filters/CMakeFiles/data_stream_filters.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/data-stream-filters/CMakeFiles/edit_cache.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/data-stream-filters/CMakeFiles/rebuild_cache.dir

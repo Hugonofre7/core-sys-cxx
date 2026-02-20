@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore_task_scheduler.a CMakeFiles/core_task_scheduler.dir/src/work_stealing_queue.cpp.o
+/usr/bin/ranlib libcore_task_scheduler.a

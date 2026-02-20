@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdata_stream_filters.a CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.o
+/usr/bin/ranlib libdata_stream_filters.a

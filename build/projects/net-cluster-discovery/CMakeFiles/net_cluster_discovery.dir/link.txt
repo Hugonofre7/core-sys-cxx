@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnet_cluster_discovery.a CMakeFiles/net_cluster_discovery.dir/src/gossip_node.cpp.o
+/usr/bin/ranlib libnet_cluster_discovery.a

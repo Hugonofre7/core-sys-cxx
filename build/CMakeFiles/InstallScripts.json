@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hugonofre7/Projects/C++/core-sys-cxx/build/cmake_install.cmake",
+		"/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/cmake_install.cmake",
+		"/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery/cmake_install.cmake",
+		"/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/core-task-scheduler/cmake_install.cmake",
+		"/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/data-stream-filters/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
