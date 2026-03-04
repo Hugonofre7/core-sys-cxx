@@ -152,10 +152,12 @@ projects/net-cluster-discovery/clean: projects/net-cluster-discovery/CMakeFiles/
 
 # Recursive "all" directory target.
 projects/sys-memory-engine/all: projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/all
+projects/sys-memory-engine/all: projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/all
 .PHONY : projects/sys-memory-engine/all
 
 # Recursive "codegen" directory target.
 projects/sys-memory-engine/codegen: projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/codegen
+projects/sys-memory-engine/codegen: projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/codegen
 .PHONY : projects/sys-memory-engine/codegen
 
 # Recursive "preinstall" directory target.
@@ -164,6 +166,7 @@ projects/sys-memory-engine/preinstall:
 
 # Recursive "clean" directory target.
 projects/sys-memory-engine/clean: projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/clean
+projects/sys-memory-engine/clean: projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/clean
 .PHONY : projects/sys-memory-engine/clean
 
 #=============================================================================
@@ -197,6 +200,38 @@ projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/codegen:
 projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/clean:
 	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/build.make projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/clean
 .PHONY : projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/clean
+
+#=============================================================================
+# Target rules for target projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir
+
+# All Build rule for target.
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/all: projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/all
+	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/depend
+	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles --progress-num=9,10 "Built target test_slab_allocator"
+.PHONY : projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/all
+
+# Build rule for subdir invocation for target.
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles 0
+.PHONY : projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule
+
+# Convenience name for target.
+test_slab_allocator: projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule
+.PHONY : test_slab_allocator
+
+# codegen rule for target.
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles --progress-num=9,10 "Finished codegen for target test_slab_allocator"
+.PHONY : projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/codegen
+
+# clean rule for target.
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/clean
+.PHONY : projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/clean
 
 #=============================================================================
 # Target rules for target projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir

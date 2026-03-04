@@ -130,6 +130,19 @@ sys_memory_engine/fast:
 .PHONY : sys_memory_engine/fast
 
 #=============================================================================
+# Target rules for targets named test_slab_allocator
+
+# Build rule for target.
+test_slab_allocator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_slab_allocator
+.PHONY : test_slab_allocator
+
+# fast build rule for target.
+test_slab_allocator/fast:
+	$(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build
+.PHONY : test_slab_allocator/fast
+
+#=============================================================================
 # Target rules for targets named net_cluster_discovery
 
 # Build rule for target.
@@ -180,6 +193,7 @@ help:
 	@echo "... data_stream_filters"
 	@echo "... net_cluster_discovery"
 	@echo "... sys_memory_engine"
+	@echo "... test_slab_allocator"
 .PHONY : help
 
 

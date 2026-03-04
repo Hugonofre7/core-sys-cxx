@@ -130,6 +130,20 @@ sys_memory_engine/fast:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/build.make projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/build
 .PHONY : sys_memory_engine/fast
 
+# Convenience name for target.
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule
+.PHONY : projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule
+
+# Convenience name for target.
+test_slab_allocator: projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/rule
+.PHONY : test_slab_allocator
+
+# fast build rule for target.
+test_slab_allocator/fast:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build
+.PHONY : test_slab_allocator/fast
+
 src/slab_allocator.o: src/slab_allocator.cpp.o
 .PHONY : src/slab_allocator.o
 
@@ -154,6 +168,30 @@ src/slab_allocator.cpp.s:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/build.make projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/src/slab_allocator.cpp.s
 .PHONY : src/slab_allocator.cpp.s
 
+tests/test_slab_allocator.o: tests/test_slab_allocator.cpp.o
+.PHONY : tests/test_slab_allocator.o
+
+# target to build an object file
+tests/test_slab_allocator.cpp.o:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.o
+.PHONY : tests/test_slab_allocator.cpp.o
+
+tests/test_slab_allocator.i: tests/test_slab_allocator.cpp.i
+.PHONY : tests/test_slab_allocator.i
+
+# target to preprocess a source file
+tests/test_slab_allocator.cpp.i:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.i
+.PHONY : tests/test_slab_allocator.cpp.i
+
+tests/test_slab_allocator.s: tests/test_slab_allocator.cpp.s
+.PHONY : tests/test_slab_allocator.s
+
+# target to generate assembly for a file
+tests/test_slab_allocator.cpp.s:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/build.make projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.s
+.PHONY : tests/test_slab_allocator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +201,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sys_memory_engine"
+	@echo "... test_slab_allocator"
 	@echo "... src/slab_allocator.o"
 	@echo "... src/slab_allocator.i"
 	@echo "... src/slab_allocator.s"
+	@echo "... tests/test_slab_allocator.o"
+	@echo "... tests/test_slab_allocator.i"
+	@echo "... tests/test_slab_allocator.s"
 .PHONY : help
 
 

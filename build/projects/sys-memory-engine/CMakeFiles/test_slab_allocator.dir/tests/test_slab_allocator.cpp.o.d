@@ -1,5 +1,5 @@
-projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/src/slab_allocator.cpp.o: \
-  /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/src/slab_allocator.cpp \
+projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.o: \
+  /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/tests/test_slab_allocator.cpp \
   /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/include/sys/slab_allocator.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -79,4 +79,8 @@ projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/src/slab_allocator.c
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h

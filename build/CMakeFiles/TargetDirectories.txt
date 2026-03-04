@@ -1,6 +1,7 @@
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles/edit_cache.dir
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/CMakeFiles/rebuild_cache.dir
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir
+/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/edit_cache.dir
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine/CMakeFiles/rebuild_cache.dir
 /Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir
