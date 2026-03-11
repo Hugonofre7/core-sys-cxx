@@ -1,2 +1,6 @@
-warmups/**/array_reverser
+# Compiled binaries
 warmups/**/resource_wrapper
+warmups/**/array_reverser
+**/*.o
+**/*.exe
+**/a.out
