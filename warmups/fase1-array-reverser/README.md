@@ -2,11 +2,11 @@
 
 Ejercicio de calentamiento de la **Fase 1: Gestión de Memoria**.
 
-## Objetivo
+## 📌 Objetivo
 
 Practicar el uso de **punteros crudos**, **aritmética de punteros** y **memoria dinámica** (`new[]` / `delete[]`) invirtiendo un array sin usar corchetes `[]`.
 
-## Conceptos Clave
+## 🧠 Conceptos Clave
 
 | Concepto | Aplicación |
 |----------|------------|
@@ -15,52 +15,15 @@ Practicar el uso de **punteros crudos**, **aritmética de punteros** y **memoria
 | Memoria dinámica | `new int[size]`, `delete[] arr` |
 | Dereferencia | `*left`, `*right` para acceder/modificar valores |
 
-## Código
+## 🚀 Cómo compilar y ejecutar
 
-```cpp
-#include <iostream>
+```bash
+g++ array_reverser.cpp -o array_reverser
+./array_reverser
 
-void reverse(int* arr, int size) {
-    int* left = arr;
-    int* right = arr + size - 1;
-    
-    while(left < right) {
-        int temp = *left;
-        *left = *right;
-        *right = temp;
-        left++;
-        right--;
-    }
-}
+## 📋 Ejemplo de uso ##
 
-int main() {
-    int size;
-    
-    std::cout << "Enter the size of the array: ";
-    std::cin >> size;
-    
-    int* arr = new int[size];
-    
-    std::cout << "Enter " << size << " numbers: ";
-    for(int i = 0; i < size; i++) {
-        std::cin >> arr[i];
-    }
-    
-    std::cout << "Original array: ";
-    for(int i = 0; i < size; i++) {
-        std::cout << arr[i] << " ";
-    }
-    std::cout << std::endl;
-    
-    reverse(arr, size);
-    
-    std::cout << "Reversed array: ";
-    for(int i = 0; i < size; i++) {
-        std::cout << arr[i] << " ";
-    }
-    std::cout << std::endl;
-    
-    delete[] arr;
-    
-    return 0;
-}
+Enter the size of the array: 5
+Enter 5 numbers: 1 2 3 4 5
+Original array: 1 2 3 4 5
+Reversed array: 5 4 3 2 1
