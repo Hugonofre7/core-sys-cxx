@@ -3,4 +3,4 @@ warmups/**/resource_wrapper
 warmups/**/array_reverser
 **/*.o
 **/*.exe
-**/a.out
+**/a.outwarmups/**/race_counter
