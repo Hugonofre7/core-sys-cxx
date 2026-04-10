@@ -4,3 +4,4 @@ warmups/**/array_reverser
 **/*.o
 **/*.exe
 **/a.outwarmups/**/race_counter
+warmups/**/atomic_flag
