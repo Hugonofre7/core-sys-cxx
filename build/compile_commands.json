@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine",
+  "command": "/usr/bin/c++  -I/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/sys_memory_engine.dir/src/slab_allocator.cpp.o -c /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/src/slab_allocator.cpp",
+  "file": "/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/src/slab_allocator.cpp",
+  "output": "projects/sys-memory-engine/CMakeFiles/sys_memory_engine.dir/src/slab_allocator.cpp.o"
+},
+{
+  "directory": "/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/sys-memory-engine",
+  "command": "/usr/bin/c++  -I/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.o -c /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/tests/test_slab_allocator.cpp",
+  "file": "/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/sys-memory-engine/tests/test_slab_allocator.cpp",
+  "output": "projects/sys-memory-engine/CMakeFiles/test_slab_allocator.dir/tests/test_slab_allocator.cpp.o"
+},
+{
+  "directory": "/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/net-cluster-discovery",
+  "command": "/usr/bin/c++  -I/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/net-cluster-discovery/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/net_cluster_discovery.dir/src/gossip_node.cpp.o -c /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/net-cluster-discovery/src/gossip_node.cpp",
+  "file": "/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/net-cluster-discovery/src/gossip_node.cpp",
+  "output": "projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/src/gossip_node.cpp.o"
+},
+{
+  "directory": "/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/core-task-scheduler",
+  "command": "/usr/bin/c++  -I/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/core-task-scheduler/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/core_task_scheduler.dir/src/work_stealing_queue.cpp.o -c /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/core-task-scheduler/src/work_stealing_queue.cpp",
+  "file": "/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/core-task-scheduler/src/work_stealing_queue.cpp",
+  "output": "projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir/src/work_stealing_queue.cpp.o"
+},
+{
+  "directory": "/Users/hugonofre7/Projects/C++/core-sys-cxx/build/projects/data-stream-filters",
+  "command": "/usr/bin/c++  -I/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/data-stream-filters/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.o -c /Users/hugonofre7/Projects/C++/core-sys-cxx/projects/data-stream-filters/src/bloom_filter.cpp",
+  "file": "/Users/hugonofre7/Projects/C++/core-sys-cxx/projects/data-stream-filters/src/bloom_filter.cpp",
+  "output": "projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.o"
+}
+]
