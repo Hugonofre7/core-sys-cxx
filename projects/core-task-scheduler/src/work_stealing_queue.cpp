@@ -93,5 +93,6 @@ namespace sys
 
     // Instanciación explícita para std::function<void()>
     template class WorkStealingQueue<std::function<void()>>;
+    template class WorkStealingQueue<int>;
 
 } // namespace sys
