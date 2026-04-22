@@ -25,3 +25,14 @@ Implementar un validador de direcciones **IPv4** que verifique:
 ```bash
 g++ ip_parser.cpp -o ip_parser
 ./ip_parser
+
+📋 Ejemplo de ejecución
+IP: 192.178.0.1 -> VÁLIDA
+IP: 255.255.255.255 -> VÁLIDA
+IP: 0.0.0.0 -> VÁLIDA
+IP: 256.1.0.1 -> INVÁLIDA
+IP: 192.178.1 -> INVÁLIDA
+IP: 192.178.1.0.1 -> INVÁLIDA
+IP: 192.178.01.1 -> INVÁLIDA
+IP: abc.def.ghi.jkl -> INVÁLIDA
+IP:  -> INVÁLIDA
