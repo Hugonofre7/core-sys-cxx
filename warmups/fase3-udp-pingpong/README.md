@@ -27,3 +27,23 @@ Implementar una **comunicación UDP** entre un servidor y un cliente:
 ```bash
 g++ udp_server.cpp -o udp_server
 g++ udp_client.cpp -o udp_client
+
+Ejecución (necesitas 2 terminales)
+Terminal 1 (Servidor):
+
+bash
+./udp_server
+Terminal 2 (Cliente):
+
+bash
+./udp_client
+
+📋 Ejemplo de ejecución
+Servidor
+Servidor UDP escuchando en puerto 8080...
+Recibido de 127.0.0.1:54460 -> PING
+Enviado PONG a 127.0.0.1:54460
+
+Cliente
+Enviado PING al servidor
+Respuesta del servidor: PONG
