@@ -6,3 +6,5 @@ warmups/**/array_reverser
 **/a.outwarmups/**/race_counter
 warmups/**/atomic_flag
 warmups/**/ip_parser
+warmups/**/udp_server
+warmups/**/udp_client
