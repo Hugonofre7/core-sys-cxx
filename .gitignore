@@ -10,3 +10,4 @@ warmups/**/udp_server
 warmups/**/udp_client
 warmups/**/json_serializer
 warmups/**/bitmask_manager
+warmups/**/hash_function
