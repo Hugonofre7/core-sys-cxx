@@ -1,15 +1,12 @@
 include(compiler_warnings)
 
-add_library(data_stream_filters
-    src/bloom_filter.cpp
-)
+# Header-only library (no .cpp files)
+add_library(data_stream_filters INTERFACE)
 
 target_include_directories(data_stream_filters
-    PUBLIC
+    INTERFACE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
-
-set_project_warnings(data_stream_filters)
 
 # Test ejecutable
 add_executable(test_bloom_filter tests/test_bloom_filter.cpp)
