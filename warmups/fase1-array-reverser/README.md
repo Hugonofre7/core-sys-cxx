@@ -27,3 +27,12 @@ Enter the size of the array: 5
 Enter 5 numbers: 1 2 3 4 5
 Original array: 1 2 3 4 5
 Reversed array: 5 4 3 2 1
+
+
+---
+
+## CÓMO APLICARLO
+
+1. **Abre el archivo:**
+```bash
+code warmups/fase1-array-reverser/README.md

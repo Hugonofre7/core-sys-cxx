@@ -156,6 +156,19 @@ net_cluster_discovery/fast:
 .PHONY : net_cluster_discovery/fast
 
 #=============================================================================
+# Target rules for targets named test_gossip
+
+# Build rule for target.
+test_gossip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_gossip
+.PHONY : test_gossip
+
+# fast build rule for target.
+test_gossip/fast:
+	$(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build.make projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build
+.PHONY : test_gossip/fast
+
+#=============================================================================
 # Target rules for targets named core_task_scheduler
 
 # Build rule for target.
@@ -169,17 +182,30 @@ core_task_scheduler/fast:
 .PHONY : core_task_scheduler/fast
 
 #=============================================================================
-# Target rules for targets named data_stream_filters
+# Target rules for targets named test_work_stealing
 
 # Build rule for target.
-data_stream_filters: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_stream_filters
-.PHONY : data_stream_filters
+test_work_stealing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_work_stealing
+.PHONY : test_work_stealing
 
 # fast build rule for target.
-data_stream_filters/fast:
-	$(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build.make projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build
-.PHONY : data_stream_filters/fast
+test_work_stealing/fast:
+	$(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build.make projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build
+.PHONY : test_work_stealing/fast
+
+#=============================================================================
+# Target rules for targets named test_bloom_filter
+
+# Build rule for target.
+test_bloom_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_bloom_filter
+.PHONY : test_bloom_filter
+
+# fast build rule for target.
+test_bloom_filter/fast:
+	$(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build.make projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build
+.PHONY : test_bloom_filter/fast
 
 # Help Target
 help:
@@ -190,10 +216,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core_task_scheduler"
-	@echo "... data_stream_filters"
 	@echo "... net_cluster_discovery"
 	@echo "... sys_memory_engine"
+	@echo "... test_bloom_filter"
+	@echo "... test_gossip"
 	@echo "... test_slab_allocator"
+	@echo "... test_work_stealing"
 .PHONY : help
 
 

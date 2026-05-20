@@ -130,6 +130,20 @@ net_cluster_discovery/fast:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/build.make projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/build
 .PHONY : net_cluster_discovery/fast
 
+# Convenience name for target.
+projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/rule:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/rule
+.PHONY : projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/rule
+
+# Convenience name for target.
+test_gossip: projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/rule
+.PHONY : test_gossip
+
+# fast build rule for target.
+test_gossip/fast:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build.make projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build
+.PHONY : test_gossip/fast
+
 src/gossip_node.o: src/gossip_node.cpp.o
 .PHONY : src/gossip_node.o
 
@@ -154,6 +168,30 @@ src/gossip_node.cpp.s:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/build.make projects/net-cluster-discovery/CMakeFiles/net_cluster_discovery.dir/src/gossip_node.cpp.s
 .PHONY : src/gossip_node.cpp.s
 
+tests/test_gossip.o: tests/test_gossip.cpp.o
+.PHONY : tests/test_gossip.o
+
+# target to build an object file
+tests/test_gossip.cpp.o:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build.make projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/tests/test_gossip.cpp.o
+.PHONY : tests/test_gossip.cpp.o
+
+tests/test_gossip.i: tests/test_gossip.cpp.i
+.PHONY : tests/test_gossip.i
+
+# target to preprocess a source file
+tests/test_gossip.cpp.i:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build.make projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/tests/test_gossip.cpp.i
+.PHONY : tests/test_gossip.cpp.i
+
+tests/test_gossip.s: tests/test_gossip.cpp.s
+.PHONY : tests/test_gossip.s
+
+# target to generate assembly for a file
+tests/test_gossip.cpp.s:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/build.make projects/net-cluster-discovery/CMakeFiles/test_gossip.dir/tests/test_gossip.cpp.s
+.PHONY : tests/test_gossip.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +201,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... net_cluster_discovery"
+	@echo "... test_gossip"
 	@echo "... src/gossip_node.o"
 	@echo "... src/gossip_node.i"
 	@echo "... src/gossip_node.s"
+	@echo "... tests/test_gossip.o"
+	@echo "... tests/test_gossip.i"
+	@echo "... tests/test_gossip.s"
 .PHONY : help
 
 

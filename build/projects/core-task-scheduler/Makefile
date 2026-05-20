@@ -130,6 +130,20 @@ core_task_scheduler/fast:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir/build.make projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir/build
 .PHONY : core_task_scheduler/fast
 
+# Convenience name for target.
+projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/rule:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/rule
+.PHONY : projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/rule
+
+# Convenience name for target.
+test_work_stealing: projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/rule
+.PHONY : test_work_stealing
+
+# fast build rule for target.
+test_work_stealing/fast:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build.make projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build
+.PHONY : test_work_stealing/fast
+
 src/work_stealing_queue.o: src/work_stealing_queue.cpp.o
 .PHONY : src/work_stealing_queue.o
 
@@ -154,6 +168,30 @@ src/work_stealing_queue.cpp.s:
 	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir/build.make projects/core-task-scheduler/CMakeFiles/core_task_scheduler.dir/src/work_stealing_queue.cpp.s
 .PHONY : src/work_stealing_queue.cpp.s
 
+tests/test_work_stealing.o: tests/test_work_stealing.cpp.o
+.PHONY : tests/test_work_stealing.o
+
+# target to build an object file
+tests/test_work_stealing.cpp.o:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build.make projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/tests/test_work_stealing.cpp.o
+.PHONY : tests/test_work_stealing.cpp.o
+
+tests/test_work_stealing.i: tests/test_work_stealing.cpp.i
+.PHONY : tests/test_work_stealing.i
+
+# target to preprocess a source file
+tests/test_work_stealing.cpp.i:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build.make projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/tests/test_work_stealing.cpp.i
+.PHONY : tests/test_work_stealing.cpp.i
+
+tests/test_work_stealing.s: tests/test_work_stealing.cpp.s
+.PHONY : tests/test_work_stealing.s
+
+# target to generate assembly for a file
+tests/test_work_stealing.cpp.s:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/build.make projects/core-task-scheduler/CMakeFiles/test_work_stealing.dir/tests/test_work_stealing.cpp.s
+.PHONY : tests/test_work_stealing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +201,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core_task_scheduler"
+	@echo "... test_work_stealing"
 	@echo "... src/work_stealing_queue.o"
 	@echo "... src/work_stealing_queue.i"
 	@echo "... src/work_stealing_queue.s"
+	@echo "... tests/test_work_stealing.o"
+	@echo "... tests/test_work_stealing.i"
+	@echo "... tests/test_work_stealing.s"
 .PHONY : help
 
 

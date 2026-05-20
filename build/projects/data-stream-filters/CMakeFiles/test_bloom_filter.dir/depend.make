@@ -1,2 +1,2 @@
-# Empty dependencies file for data_stream_filters.
+# Empty dependencies file for test_bloom_filter.
 # This may be replaced when dependencies are built.

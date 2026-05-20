@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/rule:
-	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/rule
-.PHONY : projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/rule
+projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/rule:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/rule
+.PHONY : projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/rule
 
 # Convenience name for target.
-data_stream_filters: projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/rule
-.PHONY : data_stream_filters
+test_bloom_filter: projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/rule
+.PHONY : test_bloom_filter
 
 # fast build rule for target.
-data_stream_filters/fast:
-	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build.make projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build
-.PHONY : data_stream_filters/fast
+test_bloom_filter/fast:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build.make projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build
+.PHONY : test_bloom_filter/fast
 
-src/bloom_filter.o: src/bloom_filter.cpp.o
-.PHONY : src/bloom_filter.o
+tests/test_bloom_filter.o: tests/test_bloom_filter.cpp.o
+.PHONY : tests/test_bloom_filter.o
 
 # target to build an object file
-src/bloom_filter.cpp.o:
-	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build.make projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.o
-.PHONY : src/bloom_filter.cpp.o
+tests/test_bloom_filter.cpp.o:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build.make projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/tests/test_bloom_filter.cpp.o
+.PHONY : tests/test_bloom_filter.cpp.o
 
-src/bloom_filter.i: src/bloom_filter.cpp.i
-.PHONY : src/bloom_filter.i
+tests/test_bloom_filter.i: tests/test_bloom_filter.cpp.i
+.PHONY : tests/test_bloom_filter.i
 
 # target to preprocess a source file
-src/bloom_filter.cpp.i:
-	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build.make projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.i
-.PHONY : src/bloom_filter.cpp.i
+tests/test_bloom_filter.cpp.i:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build.make projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/tests/test_bloom_filter.cpp.i
+.PHONY : tests/test_bloom_filter.cpp.i
 
-src/bloom_filter.s: src/bloom_filter.cpp.s
-.PHONY : src/bloom_filter.s
+tests/test_bloom_filter.s: tests/test_bloom_filter.cpp.s
+.PHONY : tests/test_bloom_filter.s
 
 # target to generate assembly for a file
-src/bloom_filter.cpp.s:
-	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/build.make projects/data-stream-filters/CMakeFiles/data_stream_filters.dir/src/bloom_filter.cpp.s
-.PHONY : src/bloom_filter.cpp.s
+tests/test_bloom_filter.cpp.s:
+	cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build && $(MAKE) $(MAKESILENT) -f projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/build.make projects/data-stream-filters/CMakeFiles/test_bloom_filter.dir/tests/test_bloom_filter.cpp.s
+.PHONY : tests/test_bloom_filter.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... data_stream_filters"
-	@echo "... src/bloom_filter.o"
-	@echo "... src/bloom_filter.i"
-	@echo "... src/bloom_filter.s"
+	@echo "... test_bloom_filter"
+	@echo "... tests/test_bloom_filter.o"
+	@echo "... tests/test_bloom_filter.i"
+	@echo "... tests/test_bloom_filter.s"
 .PHONY : help
 
 
