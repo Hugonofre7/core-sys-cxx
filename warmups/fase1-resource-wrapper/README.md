@@ -21,6 +21,7 @@ Implementar una clase que encapsule un recurso (memoria dinámica) utilizando el
 ```bash
 g++ resource_wrapper.cpp -o resource_wrapper
 ./resource_wrapper
+```
 
 ## 📋 Ejemplo de ejecución
 
@@ -29,3 +30,4 @@ Constructor: allocating array of size 5
 Array contents: 0 10 20 30 40
 Exiting main
 Destructor: freeing memory
+
