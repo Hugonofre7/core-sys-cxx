@@ -21,6 +21,7 @@ Implementar una versión simplificada de `std::unique_ptr` usando **templates** 
 ```bash
 g++ smart_ptr_clone.cpp -o smart_ptr_clone
 ./smart_ptr_clone
+```
 
 ## 📋 Ejemplo de ejecución
 
