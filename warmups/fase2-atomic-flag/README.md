@@ -20,10 +20,11 @@ Aprender a usar **variables atómicas** (`std::atomic<bool>`) para comunicar eve
 
 ```bash
 g++ atomic_flag.cpp -o atomic_flag -pthread
-./atomic_flag
+./atomic_flag 
+```
 
-
-📋 Ejemplo de ejecución
+## 📋 Ejemplo de ejecución
+```
 Main: starting 5 threads
 Thread 0 waiting...
 Thread 1 waiting...
@@ -38,3 +39,4 @@ Thread 1 received signal!
 Thread 0 received signal!
 Thread 3 received signal!
 Main: all threads finished
+```
