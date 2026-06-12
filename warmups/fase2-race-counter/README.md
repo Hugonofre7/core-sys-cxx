@@ -22,3 +22,7 @@ Demostrar el problema de **race condition** cuando múltiples hilos acceden a un
 g++ race_counter.cpp -o race_counter -pthread
 ./race_counter
 
+
+📋 Ejemplo de ejecución (con mutex)
+Expected value: 1000000
+Actual value:   1000000
