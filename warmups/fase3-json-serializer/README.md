@@ -19,10 +19,13 @@ Implementar **serialización y deserialización** de una estructura de datos (`S
 
 ## 🚀 Cómo compilar y ejecutar
 
+```bash
 g++ json_serializer.cpp -o json_serializer
 ./json_serializer
+```
 
-📋 Ejemplo de ejecución
+## 📋 Ejemplo de ejecución
+```
 text
 JSON serializado: {"id":1,"temperature":23.50,"humidity":65.20,"active":true}
 Datos restaurados:
@@ -30,5 +33,6 @@ Datos restaurados:
   Temperature: 23.5
   Humidity: 65.2
   Active: true
+```
 
 ✅ Serialización/Deserialización correcta!
