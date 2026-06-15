@@ -21,8 +21,10 @@ Aprender a usar **operadores de bits** (`&`, `|`, `^`, `~`, `<<`) para gestionar
 ```bash
 g++ bitmask_manager.cpp -o bitmask_manager
 ./bitmask_manager
+```
 
-📋 Ejemplo de ejecución
+## 📋 Ejemplo de ejecución
+```
 === BITMASK MANAGER ===
 
 Estado inicial:
@@ -48,3 +50,5 @@ Verificando permisos:
   Tiene WRITE? Sí
   Tiene EXECUTE? No
   Tiene ADMIN? No
+  ```
+  
