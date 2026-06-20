@@ -12,3 +12,4 @@ warmups/**/json_serializer
 warmups/**/bitmask_manager
 warmups/**/hash_function
 warmups/**/custom_vector
+build/
