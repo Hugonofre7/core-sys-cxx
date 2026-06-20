@@ -22,14 +22,14 @@ Imagina una hoja de respuestas de examen donde cada pregunta tiene 3 respuestas 
 - Si la pregunta SÍ tiene marcas → alguien pudo haberla respondido (o no)
 
 ## 🏗️ Estructura del Proyecto
-
+```
 data-stream-filters/
 ├── include/sys/
 │ └── bloom_filter.hpp ← Implementación completa (header-only)
 ├── tests/
 │ └── test_bloom_filter.cpp ← Tests unitarios
 └── CMakeLists.txt
-
+```
 
 ## 🚀 Cómo compilar y ejecutar
 
@@ -37,10 +37,11 @@ data-stream-filters/
 cd /Users/hugonofre7/Projects/C++/core-sys-cxx/build
 cmake --build .
 ./projects/data-stream-filters/test_bloom_filter
+```
 
 
-📋 Ejemplo de ejecución.
-
+## 📋 Ejemplo de ejecución
+```
 === BLOOM FILTER TESTS ===
 
 [Test 1] Operaciones básicas
@@ -66,4 +67,5 @@ cmake --build .
   int_filter contiene 42? Sí
   double_filter contiene 3.14159? Sí
 
-=== TODOS LOS TESTS COMPLETADOS ===
+✅ Todas las pruebas completadas
+```
